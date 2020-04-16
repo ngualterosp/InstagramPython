@@ -1,0 +1,20 @@
+2020-03-29 18:25:34,066 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 18:25:34,067 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-29 18:25:37,720 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-29 18:25:37,721 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-29 18:25:37,721 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=48d44289-88ce-41dd-af7f-2c048e95f0c1
+- uuid=1b76185c-2d29-4e84-935d-583405278a77
+- client_session_id=7227cebb-d582-4612-ad4a-9c7bbc11bde5
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-29 18:25:37,725 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-29 18:25:40,389 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-29 18:25:42,052 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-29 18:25:42,056 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-29 18:25:42,058 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-29 18:25:44,148 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/ingeniero_gualteros/usernameinfo/ returned response: <Response [200]>
+2020-03-29 18:25:46,697 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-29 18:25:46,700 - instabot version: 0.116.0 (bot_stats) - INFO - Stats saved at 2020-03-29 18:25:46.
+2020-03-29 18:41:30,473 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-29 18:41:30,476 - instabot version: 0.116.0 (bot) - INFO - Total requests: 127

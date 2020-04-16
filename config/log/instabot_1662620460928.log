@@ -1,0 +1,27 @@
+2020-03-27 17:51:15,893 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 17:51:15,895 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-27 17:51:15,922 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 17:51:15,924 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 17:51:15,924 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=aaee86c4-225a-4a82-be7b-42a7b65159d9
+- uuid=a33f78fb-18e0-476b-b31d-31408deb2699
+- client_session_id=4906bd18-a4f4-4e89-9540-442a7ecd87ee
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-27 17:51:15,934 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 17:51:18,671 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 17:51:19,589 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 17:51:19,596 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-27 17:51:19,597 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-27 17:51:20,494 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/stivenroddriguez/usernameinfo/ returned response: <Response [200]>
+2020-03-27 17:51:21,561 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/552243188/?max_id=&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 17:51:22,291 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/552243188/?max_id=2071539112334261143_552243188&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 17:51:22,779 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/552243188/?max_id=1920778486709028365_552243188&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 17:51:23,382 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/552243188/?max_id=1801941904078741439_552243188&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 17:51:23,833 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/552243188/?max_id=1699684575443226793_552243188&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 17:51:23,834 - instabot version: 0.116.0 (bot_photo) - INFO - Going to download 76 medias.
+2020-03-27 17:51:27,829 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2259291914656391094_552243188/info/ returned response: <Response [200]>
+2020-03-27 17:51:43,379 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2233242605112526839_552243188/info/ returned response: <Response [200]>
+2020-03-27 17:51:54,155 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-27 17:51:54,158 - instabot version: 0.116.0 (bot) - INFO - Total follows: 1/57
+2020-03-27 17:51:54,161 - instabot version: 0.116.0 (bot) - INFO - Total requests: 97

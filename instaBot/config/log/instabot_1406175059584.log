@@ -1,0 +1,219 @@
+2020-03-28 09:16:09,487 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-28 09:16:09,488 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-28 09:16:51,542 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 09:16:51,543 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 09:16:51,543 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=48d44289-88ce-41dd-af7f-2c048e95f0c1
+- uuid=1b76185c-2d29-4e84-935d-583405278a77
+- client_session_id=b50ca827-436f-4ab1-956a-379870df846f
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-28 09:16:51,546 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-28 09:16:53,169 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 09:16:53,792 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 09:16:54,040 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-28 09:16:54,300 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-28 09:16:54,621 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-28 09:16:54,926 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-28 09:16:55,680 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-28 09:16:55,964 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-28 09:16:57,712 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-28 09:16:57,722 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-28 09:16:57,723 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-28 09:16:57,742 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-03-28 09:16:58,281 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-28 09:16:58,698 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/32088301686/following/?max_id=&ig_sig_key_version=4&rank_token=32088301686_1b76185c-2d29-4e84-935d-583405278a77 returned response: <Response [200]>
+2020-03-28 09:16:59,203 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-28 09:16:59,519 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/32088301686/followers/?rank_token=32088301686_1b76185c-2d29-4e84-935d-583405278a77 returned response: <Response [200]>
+2020-03-28 09:16:59,958 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/6555119376/info/ returned response: <Response [200]>
+2020-03-28 09:16:59,959 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 6555119376 with username basketballoverdose.
+2020-03-28 09:17:03,847 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: friendships/destroy/6555119376/ returned response: <Response [400]>
+2020-03-28 09:17:03,848 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "feedback_required", "spam": true, "feedback_title": "Action Blocked", "feedback_message": "This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.", "feedback_url": "repute/report_problem/instagram_unfollow/", "feedback_appeal_label": "Tell us", "feedback_ignore_label": "OK", "feedback_action": "report_problem", "status": "fail"}'
+2020-03-28 09:17:03,848 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-28 09:17:03,850 - instabot version: 0.116.0 (api) - ERROR - ATTENTION!: `feedback_required`b'This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.'
+2020-03-28 09:17:03,854 - instabot version: 0.116.0 (bot_unfollow) - ERROR - `Unfollow` action has been BLOCKED...!!!
+2020-03-28 09:17:03,856 - instabot version: 0.116.0 (bot_unfollow) - INFO - `Unfollow` action is going to sleep                         for 1085 seconds.
+2020-03-28 09:35:09,989 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3406276966/info/ returned response: <Response [200]>
+2020-03-28 09:35:09,991 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3406276966 with username truesportstv.
+2020-03-28 09:35:12,816 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: friendships/destroy/3406276966/ returned response: <Response [400]>
+2020-03-28 09:35:12,817 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "feedback_required", "spam": true, "feedback_title": "Action Blocked", "feedback_message": "This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.", "feedback_url": "repute/report_problem/instagram_unfollow/", "feedback_appeal_label": "Tell us", "feedback_ignore_label": "OK", "feedback_action": "report_problem", "status": "fail"}'
+2020-03-28 09:35:12,817 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-28 09:35:12,820 - instabot version: 0.116.0 (api) - ERROR - ATTENTION!: `feedback_required`b'This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.'
+2020-03-28 09:35:12,825 - instabot version: 0.116.0 (bot_unfollow) - ERROR - `Unfollow` action has been BLOCKED...!!!
+2020-03-28 09:35:12,832 - instabot version: 0.116.0 (bot_unfollow) - WARNING - This is the second blocked                         `Unfollow` action.
+2020-03-28 09:35:12,839 - instabot version: 0.116.0 (bot_unfollow) - WARNING - Activating blocked actions                         protection for `Unfollow` action.
+2020-03-28 09:35:13,287 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/530162190/info/ returned response: <Response [200]>
+2020-03-28 09:35:13,289 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 530162190 with username dunk.
+2020-03-28 09:35:16,726 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:16,728 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:17,203 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/258378990/info/ returned response: <Response [200]>
+2020-03-28 09:35:17,204 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 258378990 with username playmakerhoops.
+2020-03-28 09:35:19,729 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:19,731 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:20,144 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/4369017057/info/ returned response: <Response [200]>
+2020-03-28 09:35:20,145 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 4369017057 with username theswishfactor.
+2020-03-28 09:35:22,312 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:22,312 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:22,712 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1654108439/info/ returned response: <Response [200]>
+2020-03-28 09:35:22,714 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1654108439 with username bestcrosses.
+2020-03-28 09:35:25,862 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:25,864 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:26,497 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1316136710/info/ returned response: <Response [200]>
+2020-03-28 09:35:26,498 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1316136710 with username nbaonespn.
+2020-03-28 09:35:30,012 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:30,015 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:30,575 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/8100254772/info/ returned response: <Response [200]>
+2020-03-28 09:35:30,576 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 8100254772 with username instacurious20.
+2020-03-28 09:35:32,308 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:32,309 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:32,805 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3198210737/info/ returned response: <Response [200]>
+2020-03-28 09:35:32,806 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3198210737 with username nbahistory.
+2020-03-28 09:35:34,012 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:34,014 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:34,716 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/2652477489/info/ returned response: <Response [200]>
+2020-03-28 09:35:34,717 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 2652477489 with username geppettocafe.
+2020-03-28 09:35:37,880 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:37,882 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:38,343 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1795138638/info/ returned response: <Response [200]>
+2020-03-28 09:35:38,344 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1795138638 with username jzosports.
+2020-03-28 09:35:41,980 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:41,982 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:42,795 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1459940668/info/ returned response: <Response [200]>
+2020-03-28 09:35:42,795 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1459940668 with username rap.
+2020-03-28 09:35:45,365 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:45,367 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:45,831 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/5332352/info/ returned response: <Response [200]>
+2020-03-28 09:35:45,832 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 5332352 with username jumpman23.
+2020-03-28 09:35:49,430 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:49,432 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:49,871 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/27956291/info/ returned response: <Response [200]>
+2020-03-28 09:35:49,872 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 27956291 with username nbamemes_official.
+2020-03-28 09:35:51,797 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:51,799 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:52,204 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/175434065/info/ returned response: <Response [200]>
+2020-03-28 09:35:52,206 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 175434065 with username damianlillard.
+2020-03-28 09:35:55,495 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:55,497 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:55,959 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1706506394/info/ returned response: <Response [200]>
+2020-03-28 09:35:55,960 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1706506394 with username hoopdynasty.
+2020-03-28 09:35:58,357 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:35:58,359 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:35:58,887 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/6431147680/info/ returned response: <Response [200]>
+2020-03-28 09:35:58,888 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 6431147680 with username slam_hs.
+2020-03-28 09:36:02,516 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:02,518 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:02,921 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3254210204/info/ returned response: <Response [200]>
+2020-03-28 09:36:02,921 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3254210204 with username ceciliasolana.
+2020-03-28 09:36:04,073 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:04,075 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:04,745 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1077811312/info/ returned response: <Response [200]>
+2020-03-28 09:36:04,745 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1077811312 with username sportshighlights.
+2020-03-28 09:36:06,167 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:06,169 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:06,699 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/2243851407/info/ returned response: <Response [200]>
+2020-03-28 09:36:06,700 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 2243851407 with username br_hoops.
+2020-03-28 09:36:08,026 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:08,028 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:08,804 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3937336965/info/ returned response: <Response [200]>
+2020-03-28 09:36:08,805 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3937336965 with username hoopsnation.
+2020-03-28 09:36:12,540 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:12,543 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:12,986 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1270785018/info/ returned response: <Response [200]>
+2020-03-28 09:36:12,987 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1270785018 with username buckets.
+2020-03-28 09:36:16,620 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:16,622 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:17,162 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/31358558/info/ returned response: <Response [200]>
+2020-03-28 09:36:17,163 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 31358558 with username warriors.
+2020-03-28 09:36:20,646 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:20,648 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:21,052 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/2292462821/info/ returned response: <Response [200]>
+2020-03-28 09:36:21,053 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 2292462821 with username nbamemes.
+2020-03-28 09:36:22,866 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:22,868 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:23,321 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/206034174/info/ returned response: <Response [200]>
+2020-03-28 09:36:23,322 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 206034174 with username shaq.
+2020-03-28 09:36:25,279 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:25,281 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:25,751 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/2229654791/info/ returned response: <Response [200]>
+2020-03-28 09:36:25,751 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 2229654791 with username nbanation.
+2020-03-28 09:36:28,459 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:28,461 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:28,896 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/15601754/info/ returned response: <Response [200]>
+2020-03-28 09:36:28,897 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 15601754 with username nbatv.
+2020-03-28 09:36:30,459 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:30,461 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:30,864 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/371680800/info/ returned response: <Response [200]>
+2020-03-28 09:36:30,865 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 371680800 with username diegofeer_.
+2020-03-28 09:36:32,074 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:32,076 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:32,776 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/7165547491/info/ returned response: <Response [200]>
+2020-03-28 09:36:32,777 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 7165547491 with username elenaenriquezalvarado.
+2020-03-28 09:36:33,685 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:33,687 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:34,191 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/495291386/info/ returned response: <Response [200]>
+2020-03-28 09:36:34,192 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 495291386 with username clutchpoints.
+2020-03-28 09:36:35,787 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:35,789 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:36,330 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/8494129703/info/ returned response: <Response [200]>
+2020-03-28 09:36:36,330 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 8494129703 with username dra.karlasanchez.
+2020-03-28 09:36:38,365 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:38,367 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:38,755 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/5582677991/info/ returned response: <Response [200]>
+2020-03-28 09:36:38,755 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 5582677991 with username real.nba.quotes.
+2020-03-28 09:36:40,422 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:40,425 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:40,863 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/185336095/info/ returned response: <Response [200]>
+2020-03-28 09:36:40,864 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 185336095 with username real_nbamemes.
+2020-03-28 09:36:43,903 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:43,906 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:44,386 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/16917874/info/ returned response: <Response [200]>
+2020-03-28 09:36:44,387 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 16917874 with username lakers.
+2020-03-28 09:36:45,958 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:45,960 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:46,863 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1320207/info/ returned response: <Response [200]>
+2020-03-28 09:36:46,863 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1320207 with username espn.
+2020-03-28 09:36:48,409 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:48,412 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:48,867 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/5910705800/info/ returned response: <Response [200]>
+2020-03-28 09:36:48,867 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 5910705800 with username hoopers.
+2020-03-28 09:36:49,798 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:49,800 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:50,267 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3634354834/info/ returned response: <Response [200]>
+2020-03-28 09:36:50,267 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3634354834 with username liz_mejia21.
+2020-03-28 09:36:53,308 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:53,309 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:53,814 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/912639211/info/ returned response: <Response [200]>
+2020-03-28 09:36:53,815 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 912639211 with username giannis_an34.
+2020-03-28 09:36:56,670 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:36:56,672 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:36:57,133 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/37946845/info/ returned response: <Response [200]>
+2020-03-28 09:36:57,133 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 37946845 with username hoopmixtape.
+2020-03-28 09:37:00,693 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:00,695 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:01,331 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3727675910/info/ returned response: <Response [200]>
+2020-03-28 09:37:01,332 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3727675910 with username aigapurdue.
+2020-03-28 09:37:02,853 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:02,855 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:03,341 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/28995773/info/ returned response: <Response [200]>
+2020-03-28 09:37:03,342 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 28995773 with username bleacherreport.
+2020-03-28 09:37:05,497 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:05,499 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:05,952 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/5845331148/info/ returned response: <Response [200]>
+2020-03-28 09:37:05,952 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 5845331148 with username statline.
+2020-03-28 09:37:07,956 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:07,959 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:08,467 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/26613159/info/ returned response: <Response [200]>
+2020-03-28 09:37:08,468 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 26613159 with username slam.
+2020-03-28 09:37:11,742 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:11,744 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:12,255 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/4349702676/info/ returned response: <Response [200]>
+2020-03-28 09:37:12,257 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 4349702676 with username hoopswave.
+2020-03-28 09:37:15,213 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:15,215 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:15,867 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/194922499/info/ returned response: <Response [200]>
+2020-03-28 09:37:15,869 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 194922499 with username spidadmitchell.
+2020-03-28 09:37:16,802 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 09:37:16,804 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 09:37:16,829 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-28 09:37:16,832 - instabot version: 0.116.0 (bot) - INFO - Blocked unfollows
+2020-03-28 09:37:16,834 - instabot version: 0.116.0 (bot) - INFO - Total requests: 119

@@ -1,0 +1,39 @@
+2020-03-27 18:01:23,568 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-27 18:01:23,569 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-27 18:01:23,619 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 18:01:23,620 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 18:01:23,621 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=aaee86c4-225a-4a82-be7b-42a7b65159d9
+- uuid=a33f78fb-18e0-476b-b31d-31408deb2699
+- client_session_id=4906bd18-a4f4-4e89-9540-442a7ecd87ee
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-27 18:01:23,632 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 18:01:26,133 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 18:01:26,958 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 18:01:26,968 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-27 18:01:26,970 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-27 18:01:27,548 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/im__nico_/usernameinfo/ returned response: <Response [200]>
+2020-03-27 18:01:28,874 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: feed/user/200563331/?max_id=&min_timestamp=None&rank_token=32088301686_a33f78fb-18e0-476b-b31d-31408deb2699&ranked_content=true returned response: <Response [200]>
+2020-03-27 18:01:28,884 - instabot version: 0.116.0 (bot_photo) - INFO - Going to download 18 medias.
+2020-03-27 18:01:30,473 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2233231122124022823_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:01:44,469 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2204951250289846977_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:01:47,906 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2194049429971224234_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:02:01,317 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2175201368033607233_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:02:18,013 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/2023762453901677406_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:02:32,961 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1974464240363678951_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:02:45,194 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1956336959502129575_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:02:59,220 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1925895704414578744_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:03:12,313 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1910573486306690005_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:03:30,972 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1852686521566362447_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:03:46,517 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1793265665627205487_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:03:59,187 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1753410025861629854_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:04:14,043 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1701934327758413555_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:04:28,265 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1464117116205647534_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:04:41,928 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/1417056366408888464_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:04:53,614 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/966837574686741389_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:05:07,194 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/938686861335073472_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:05:21,645 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/930009114106663574_200563331/info/ returned response: <Response [200]>
+2020-03-27 18:05:32,029 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-27 18:05:32,034 - instabot version: 0.116.0 (bot) - INFO - Total follows: 1/92
+2020-03-27 18:05:32,040 - instabot version: 0.116.0 (bot) - INFO - Total requests: 137

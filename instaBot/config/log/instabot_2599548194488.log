@@ -1,0 +1,37 @@
+2020-03-29 18:08:59,712 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 18:08:59,713 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-29 18:09:03,788 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-29 18:09:03,789 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-29 18:09:03,789 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=48d44289-88ce-41dd-af7f-2c048e95f0c1
+- uuid=1b76185c-2d29-4e84-935d-583405278a77
+- client_session_id=40c47dfb-da83-41c3-aff8-10f735e202d3
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-29 18:09:03,793 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-29 18:09:16,683 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-29 18:09:18,214 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-29 18:09:20,564 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 18:09:22,234 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 18:09:26,745 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-29 18:09:27,524 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-29 18:09:29,069 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-29 18:09:30,539 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-29 18:09:32,269 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-29 18:09:32,272 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-29 18:09:32,274 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-29 18:09:32,288 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-03-29 18:09:33,366 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-29 18:09:42,481 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/32088301686/following/?max_id=&ig_sig_key_version=4&rank_token=32088301686_1b76185c-2d29-4e84-935d-583405278a77 returned response: <Response [200]>
+2020-03-29 18:09:45,446 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-29 18:09:46,707 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/32088301686/followers/?rank_token=32088301686_1b76185c-2d29-4e84-935d-583405278a77 returned response: <Response [200]>
+2020-03-29 18:09:48,525 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/2243851407/info/ returned response: <Response [200]>
+2020-03-29 18:09:48,526 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 2243851407 with username br_hoops.
+2020-03-29 18:09:52,045 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: friendships/destroy/2243851407/ returned response: <Response [400]>
+2020-03-29 18:09:52,045 - instabot version: 0.116.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "feedback_required", "spam": true, "feedback_title": "Action Blocked", "feedback_message": "This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.", "feedback_url": "repute/report_problem/instagram_unfollow/", "feedback_appeal_label": "Tell us", "feedback_ignore_label": "OK", "feedback_action": "report_problem", "status": "fail"}'
+2020-03-29 18:09:52,045 - instabot version: 0.116.0 (api) - ERROR - Request returns 400 error!
+2020-03-29 18:09:52,047 - instabot version: 0.116.0 (api) - ERROR - ATTENTION!: `feedback_required`b'This action was blocked. Please try again later. We restrict certain content and actions to protect our community. Tell us if you think we made a mistake.'
+2020-03-29 18:09:52,051 - instabot version: 0.116.0 (bot_unfollow) - ERROR - `Unfollow` action has been BLOCKED...!!!
+2020-03-29 18:09:52,053 - instabot version: 0.116.0 (bot_unfollow) - INFO - `Unfollow` action is going to sleep                         for 749 seconds.
+2020-03-29 18:14:40,861 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-29 18:14:40,864 - instabot version: 0.116.0 (bot) - INFO - Total requests: 125

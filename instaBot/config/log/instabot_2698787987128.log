@@ -1,0 +1,80 @@
+2020-03-28 02:01:25,899 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-28 02:01:25,899 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-28 02:01:30,533 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-28 02:01:30,533 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-28 02:01:30,533 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/stivenroddriguez_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=fab230ef-7226-4ba0-9142-b21ac8fea4cd
+- uuid=d3dcf544-c239-4040-aa3a-e8fd30bf2e06
+- client_session_id=b0f44b78-3a06-4c6e-baf3-26dffdf5c7b5
+- device_id=android-861148e5817055c0
+2020-03-28 02:01:30,538 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-28 02:01:32,004 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 02:01:33,553 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 02:01:33,799 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-28 02:01:34,014 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-28 02:01:34,983 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-28 02:01:35,239 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-28 02:01:36,035 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-28 02:01:36,648 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-28 02:01:37,772 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-28 02:01:37,774 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'stivenroddriguez'!
+2020-03-28 02:01:37,774 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/stivenroddriguez.checkpoint
+2020-03-28 02:01:37,778 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-03-28 02:01:38,285 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/552243188/info/ returned response: <Response [200]>
+2020-03-28 02:01:39,366 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/following/?max_id=&ig_sig_key_version=4&rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06 returned response: <Response [200]>
+2020-03-28 02:01:39,790 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/552243188/info/ returned response: <Response [200]>
+2020-03-28 02:01:40,159 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06 returned response: <Response [200]>
+2020-03-28 02:01:43,868 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFDMno5SkhjWlpaWElhR1VkSjYxbDFmM1JBXzhfWmNrZ0RvanI4bHI0YlpOY3IwcFg4MzBLcGF1b0pRWUtPcTYySmVZNkJwYWxjWWduUm5xeFBrQXIyOA== returned response: <Response [200]>
+2020-03-28 02:01:44,212 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFEejdYTFdmTWdHTlhUWWF1UExmaTh5cjZjQWRtUF9MZFNDR2RYUTBEeXdZRXdRdDlmMHlyU3cyYzZnMXI4enFzMDdxXzdaVlNqOGN1UVJWdDZPRXVQQg== returned response: <Response [200]>
+2020-03-28 02:01:44,645 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFBMV83c3B6S3BKTUU2amRFbVlLOHkxSnVhQlpSWlE0NkhHQUVDbWNOMnVaZko4MUpIdUZ0cW1CNUI3UEhsZzcyYUd0bmpRWTdCX0ttck9DcG0tcXBoaA== returned response: <Response [200]>
+2020-03-28 02:01:44,973 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFBZmJxQXNIckF5eTFpNlFMcmluaEFaTUJBTDB2QmZEUl96ZmV4RVYySlNlYmlYUjRHMjVEZnMtUUxvWGRxdkhoeFlzUDltSGdCb2tYNkpFYUhSdzY4Mw== returned response: <Response [200]>
+2020-03-28 02:01:45,312 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFDYzNIZ2hIbk1RWmI0OTVlXzBhRmJsUW14ZEdpd3lac0RFZ3hNVnR3TDQxckF3Um1Sd3lQb1ZYLU1Gd1kzQXQycGlrNjBHNXMxSTVGbl9zRTlMTWJHMw== returned response: <Response [200]>
+2020-03-28 02:01:45,637 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFDU2JUZXZGdGJudGZpSERaUGFkQU1VY1ptSVFwdVNuX1lTWGxOTmlEV09ZNzlTdjZITXBRSmVFcHdCekZvU2VCYkJGN1VpZHhuTnppZkNnN0hxQVJfcg== returned response: <Response [200]>
+2020-03-28 02:01:45,996 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFDc1VpcU4tRkl5b24yangtMWg3Sm8xbHNhcHdwTzNFMTlxdTNEYlZxcElFLXdNTjkyODRxZlpHSTNjSC1pZjhDTktzZXdvNkxXbkdXZEVvTVJab0ZDTw== returned response: <Response [200]>
+2020-03-28 02:01:46,355 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFDWURnOEZBQ2ROczZLLUE5dGdmNTFGc0ExZ3VUWUNoU0xlNWVFci0xeWd1X0t2QmRhamV6Q05IZ29OYUtVRE04eUZ3amUwdnJXNmVkamFBUE1KbFRpZA== returned response: <Response [200]>
+2020-03-28 02:01:46,625 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/552243188/followers/?rank_token=552243188_d3dcf544-c239-4040-aa3a-e8fd30bf2e06&max_id=QVFEdVdpMVZ1TmlqcFFIeGJHLUo1NWEwd3h6YVZtSzRVMEpIVXdRS3RTQUlYVmdLTDZxQlBfWnRRWF9hUWZ4S2NHNlJVN29RX2ZnVFRFTTBCWW5sU1pXMA== returned response: <Response [200]>
+2020-03-28 02:01:46,990 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/181707801/info/ returned response: <Response [200]>
+2020-03-28 02:01:46,990 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 181707801 with username santycamargo.
+2020-03-28 02:01:48,601 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:01:48,602 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:01:48,993 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1479100493/info/ returned response: <Response [200]>
+2020-03-28 02:01:48,993 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1479100493 with username jere0926.
+2020-03-28 02:01:51,915 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:01:51,916 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:01:52,919 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1123848405/info/ returned response: <Response [200]>
+2020-03-28 02:01:52,919 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1123848405 with username __aaalvarez.
+2020-03-28 02:01:54,820 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:01:54,822 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:01:55,115 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1102037082/info/ returned response: <Response [200]>
+2020-03-28 02:01:55,115 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1102037082 with username montoya_1297.
+2020-03-28 02:01:55,989 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:01:55,990 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:01:56,345 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/3039680148/info/ returned response: <Response [200]>
+2020-03-28 02:01:56,345 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 3039680148 with username linatejeiro.
+2020-03-28 02:01:57,577 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:01:57,578 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:01:57,931 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/50417061/info/ returned response: <Response [200]>
+2020-03-28 02:01:57,931 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 50417061 with username danbilzerian.
+2020-03-28 02:02:00,973 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:02:00,975 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:02:01,283 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1523256828/info/ returned response: <Response [200]>
+2020-03-28 02:02:01,283 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1523256828 with username gaby_lavacude_.
+2020-03-28 02:02:02,881 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:02:02,882 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:02:03,183 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1687986350/info/ returned response: <Response [200]>
+2020-03-28 02:02:03,183 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1687986350 with username camilarojas13_.
+2020-03-28 02:02:04,355 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:02:04,356 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:02:04,829 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1352269428/info/ returned response: <Response [200]>
+2020-03-28 02:02:04,829 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1352269428 with username paulamaya_u.
+2020-03-28 02:02:07,849 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:02:07,850 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:02:08,145 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/324491752/info/ returned response: <Response [200]>
+2020-03-28 02:02:08,145 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 324491752 with username camiglo_.
+2020-03-28 02:02:08,945 - instabot version: 0.116.0 (bot_unfollow) - WARNING - YOUR `UNFOLLOW` ACTION IS BLOCKED
+2020-03-28 02:02:08,946 - instabot version: 0.116.0 (bot_unfollow) - WARNING - blocked_actions_protection ACTIVE. Skipping `unfollow` action.
+2020-03-28 02:02:10,040 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/stivenroddriguez.checkpoint
+2020-03-28 02:02:10,041 - instabot version: 0.116.0 (bot) - INFO - Total unfollows: 3/64
+2020-03-28 02:02:10,042 - instabot version: 0.116.0 (bot) - INFO - Blocked unfollows
+2020-03-28 02:02:10,042 - instabot version: 0.116.0 (bot) - INFO - Total requests: 334

@@ -1,0 +1,62 @@
+2020-03-28 19:31:51,267 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-28 19:31:51,293 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-28 19:32:16,597 - instabot version: 0.116.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-28 19:32:17,881 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-28 19:32:18,432 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 19:32:18,797 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-28 19:32:19,496 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-28 19:32:21,543 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-03-28 19:32:21,543 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'nicogualteros_'!
+2020-03-28 19:32:21,543 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-03-28 19:32:22,044 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 19:32:22,571 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-28 19:32:23,181 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-923a5c22a1521855&token_hash=&custom_device_id=android-923a5c22a1521855&fetch_reason=token_expired returned response: <Response [200]>
+2020-03-28 19:32:23,588 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2020-03-28 19:32:24,038 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-28 19:32:24,969 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2020-03-28 19:32:25,455 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2020-03-28 19:32:27,422 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-28 19:32:44,050 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-28 19:32:44,662 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2020-03-28 19:32:45,730 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2020-03-28 19:32:46,224 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2020-03-28 19:32:52,643 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2020-03-28 19:32:53,133 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2020-03-28 19:32:53,544 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2020-03-28 19:32:53,949 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2020-03-28 19:32:54,330 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2020-03-28 19:32:54,799 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2020-03-28 19:32:55,832 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2020-03-28 19:32:57,040 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/22979632/info/ returned response: <Response [200]>
+2020-03-28 19:32:57,479 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-28 19:32:58,766 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2020-03-28 19:32:59,416 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2020-03-28 19:33:01,029 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=1a2190ec-9766-4c3f-afc4-2018395168c6&include_fixed_destinations=true returned response: <Response [200]>
+2020-03-28 19:33:01,624 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2020-03-28 19:33:02,391 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2020-03-28 19:33:02,395 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/nicogualteros_.checkpoint
+2020-03-28 19:33:02,396 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-03-28 19:33:02,985 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/22979632/info/ returned response: <Response [200]>
+2020-03-28 19:33:05,990 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/following/?max_id=&ig_sig_key_version=4&rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1 returned response: <Response [200]>
+2020-03-28 19:33:06,493 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/22979632/info/ returned response: <Response [200]>
+2020-03-28 19:33:06,952 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1 returned response: <Response [200]>
+2020-03-28 19:33:07,440 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFCQWdhSEJWb3RQN3BLQmp6WjNqMk9BUkRfSU1QdDBnUVViMExzYXlyazZWdXpuZjQ5VnJteG5KSXZhZC1fc0ZaYXFfVWtnaE15MnZKeDF0c3lYaVFaNQ== returned response: <Response [200]>
+2020-03-28 19:33:07,815 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFDSjJHRXhGb3BoX0ZJWlY1bnJqTE9HcUlXdzQ3czZ3bC01Ul9UNWZCYlN5NlB0enNtNlNzWEJnT2N2X19jYkpyNWIxYVlubmh1N1AzaGJIYTJMVHlGeQ== returned response: <Response [200]>
+2020-03-28 19:33:08,340 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFDa241TWNDMlhmREYyTFRLalR1Ujl0Z0JxWmVlc3A5aE9UZnZjX1RDNEpHWWtXOUJHcG5jZXJISjd2SWxuLUpsRmlHMlpWdUh2OG9uS3VudENhSFZHdw== returned response: <Response [200]>
+2020-03-28 19:33:08,882 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFCbnJjT29NT1dUbWNzemVEcVJKWlpON0dIaU82NjdTeWlUV19QZmFWR1hycW5pX19IYTBYblhkZmY0MExrZ0d4eTNyVjdXeVc0bDNNc1BMbFNaTlROMA== returned response: <Response [200]>
+2020-03-28 19:33:09,282 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFESS1FZFh3TzZFXzdXb1ZRQXNYQkU5NjdmSHpEdEk3emczclZiVlVXU2hOME1LMDRiWWNFUWd0WFJ0YXlGcEZlWWcwQzlicGN3WkNHVnhqMUZkQ2pucg== returned response: <Response [200]>
+2020-03-28 19:33:09,753 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFDNnRJc1R4M0hwWHdsR3pSWWJHQWtEZmVZS3NPQXNjWWRuNHlaUUxNMEkyUkM0SWpla1JKRXZkTEp1cTNEVjV3TzFnNW5MdFR5QmR1R1R2WEFKTkt4dw== returned response: <Response [200]>
+2020-03-28 19:33:10,374 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: friendships/22979632/followers/?rank_token=22979632_1f1b85b9-84e3-4da6-a7d4-677ff23de5a1&max_id=QVFEaUg0SlFTWFM5ZFIzcnJiTWlXOEdwNlAzNE50azFpNS1INWR6MThsX01FM2szWHRBRXFUWVVhYmU1R0hFcktZTk1ORzJ0LXBSM1dLclJ4QUhWeGV6QQ== returned response: <Response [200]>
+2020-03-28 19:33:11,173 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/1170905078/info/ returned response: <Response [200]>
+2020-03-28 19:33:11,173 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1170905078 with username sofiamorenojc.
+2020-03-28 19:33:13,634 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: friendships/destroy/1170905078/ returned response: <Response [200]>
+2020-03-28 19:33:13,634 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowed `user_id` 1170905078 with username sofiamorenojc
+2020-03-28 19:33:14,081 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/412985930/info/ returned response: <Response [200]>
+2020-03-28 19:33:14,082 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 412985930 with username danielamp7.
+2020-03-28 19:42:28,938 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: friendships/destroy/412985930/ returned response: <Response [200]>
+2020-03-28 19:42:28,938 - instabot version: 0.116.0 (bot_unfollow) - INFO - Unfollowed `user_id` 412985930 with username danielamp7
+2020-03-28 19:42:29,375 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/429461231/info/ returned response: <Response [200]>
+2020-03-28 19:42:29,376 - instabot version: 0.116.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 429461231 with username valeriaop10.
+2020-03-28 19:43:25,291 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/nicogualteros_.checkpoint
+2020-03-28 19:43:25,292 - instabot version: 0.116.0 (bot) - INFO - Total unfollows: 2/98
+2020-03-28 19:43:25,295 - instabot version: 0.116.0 (bot) - INFO - Total requests: 47

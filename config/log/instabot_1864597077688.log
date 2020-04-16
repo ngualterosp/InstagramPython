@@ -1,0 +1,25 @@
+2020-03-30 14:48:22,318 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-30 14:48:22,320 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-30 14:48:44,541 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-30 14:48:44,541 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-30 14:48:44,542 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=aaee86c4-225a-4a82-be7b-42a7b65159d9
+- uuid=a33f78fb-18e0-476b-b31d-31408deb2699
+- client_session_id=bc309000-680e-41b2-9728-2713226485d8
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-30 14:48:44,550 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-30 14:48:59,282 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-30 14:49:00,751 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-30 14:49:02,465 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-30 14:49:03,309 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-30 14:49:04,960 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-30 14:49:06,980 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-30 14:49:08,392 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-30 14:49:09,617 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-30 14:49:12,494 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-30 14:49:12,501 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-30 14:49:12,503 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-30 14:49:12,560 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram/config/ingeniero_gualteros.checkpoint
+2020-03-30 14:49:12,562 - instabot version: 0.116.0 (bot) - INFO - Blocked follows
+2020-03-30 14:49:12,586 - instabot version: 0.116.0 (bot) - INFO - Total requests: 267

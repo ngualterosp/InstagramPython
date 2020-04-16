@@ -1,0 +1,33 @@
+2020-03-29 21:11:27,694 - instabot version: 0.116.0 (bot) - INFO - Instabot version: 0.116.0 Started
+2020-03-29 21:11:27,695 - instabot version: 0.116.0 (bot) - DEBUG - Bot imported from C:\Users\User\AppData\Local\Programs\Python\Python36\lib\site-packages\instabot\bot\bot.py
+2020-03-29 21:11:30,832 - instabot version: 0.116.0 (api_login) - DEBUG - Loading cookies
+2020-03-29 21:11:30,832 - instabot version: 0.116.0 (api_login) - DEBUG - Loading uuids
+2020-03-29 21:11:30,832 - instabot version: 0.116.0 (api_login) - INFO - Recovery from C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=48d44289-88ce-41dd-af7f-2c048e95f0c1
+- uuid=1b76185c-2d29-4e84-935d-583405278a77
+- client_session_id=7227cebb-d582-4612-ad4a-9c7bbc11bde5
+- device_id=android-e72f1e05fb5d5a1e
+2020-03-29 21:11:30,835 - instabot version: 0.116.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-29 21:11:43,667 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-29 21:11:44,330 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-29 21:11:45,072 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 21:11:45,366 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-29 21:11:45,675 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-29 21:11:45,987 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-29 21:11:46,956 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-29 21:11:47,348 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-29 21:11:47,618 - instabot version: 0.116.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-29 21:11:47,621 - instabot version: 0.116.0 (api) - INFO - Logged-in successfully as 'ingeniero_gualteros'!
+2020-03-29 21:11:47,623 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-29 21:11:48,417 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/ingeniero_gualteros/usernameinfo/ returned response: <Response [200]>
+2020-03-29 21:11:49,843 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-29 21:11:49,844 - instabot version: 0.116.0 (bot_stats) - INFO - Stats saved at 2020-03-29 21:11:49.
+2020-03-30 08:30:09,726 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-30 08:30:09,730 - instabot version: 0.116.0 (bot_stats) - INFO - Stats saved at 2020-03-30 08:30:09.
+2020-03-30 09:30:13,052 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-30 09:30:13,056 - instabot version: 0.116.0 (bot_stats) - INFO - Stats saved at 2020-03-30 09:30:13.
+2020-03-30 10:30:14,238 - instabot version: 0.116.0 (api) - DEBUG - GET to endpoint: users/32088301686/info/ returned response: <Response [200]>
+2020-03-30 10:30:14,239 - instabot version: 0.116.0 (bot_stats) - INFO - Stats saved at 2020-03-30 10:30:14.
+2020-03-30 10:57:05,047 - instabot version: 0.116.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\User\Desktop\NICOLAS GUALTEROS\Programación\Python Instagram\instaBot/config/ingeniero_gualteros.checkpoint
+2020-03-30 10:57:05,049 - instabot version: 0.116.0 (bot) - INFO - Total requests: 132
