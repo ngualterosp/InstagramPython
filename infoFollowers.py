@@ -41,5 +41,5 @@ def getFollower(username,pwd):
 #'follower_count','following_count','media_count','is_verified','is_private','category',
 #'public_phone_country_code','contact_phone_number','business_contact_method','is_business'
 #s1=getFollower('ingeniero_gualteros','nicolasg1998')
-s1=getFollower('nicogualteros_','jatsf031512Nico1998')
+s1=getFollower('nicogualteros_','******')
 print(s1)

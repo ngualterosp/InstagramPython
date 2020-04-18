@@ -13,7 +13,7 @@ from instabot import Bot  # noqa: E402
 
 parser = argparse.ArgumentParser(add_help=True)
 parser.add_argument("-u", type=str, help="ingeniero_gualteros")
-parser.add_argument("-p", type=str, help="nicolasg1998")
+parser.add_argument("-p", type=str, help="*******")
 parser.add_argument("-proxy", type=str, help="proxy")
 parser.add_argument("users", type=str, nargs="+", help="fcbarcelona")
 args = parser.parse_args()

@@ -14,7 +14,7 @@ from instabot import Bot  # noqa: E402
 
 parser = argparse.ArgumentParser(add_help=True)
 parser.add_argument("-u", type=str, help="nicogualteros_")
-parser.add_argument("-p", type=str, help="jatsf031512Nico0090")
+parser.add_argument("-p", type=str, help="********")
 parser.add_argument("-proxy", type=str, help="proxy")
 args = parser.parse_args()
 

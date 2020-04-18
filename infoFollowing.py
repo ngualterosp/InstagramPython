@@ -40,7 +40,7 @@ def getFollowing(username,pwd):
 #'follower_count','following_count','media_count','is_verified','is_private','category',
 #'public_phone_country_code','contact_phone_number','business_contact_method','is_business'
 
-s1=getFollowing('ingeniero_gualteros','nicolasg1998')
+s1=getFollowing('ingeniero_gualteros','******')
 #s1=getFollowing('nicogualteros_','-')
 
 print(s1)

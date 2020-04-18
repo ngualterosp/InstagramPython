@@ -96,4 +96,4 @@ def likesByHashtag(ListHashtag,fechatest,user,pwd):
 
 
 ListHashtag=['concerts','conciertos','musica','reggaeton','pr','puertorico','badbunny','trap']
-likesByHashtag(ListHashtag,'2020-03-27','ingeniero_gualteros','nicolasg1998')
+likesByHashtag(ListHashtag,'2020-03-27','ingeniero_gualteros','******')

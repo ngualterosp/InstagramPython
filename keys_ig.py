@@ -1,4 +1,4 @@
 USERNAME = 'nicogualteros_'
-PASS = 'jatsf031512Nico1998'
+PASS = '*****'
 #USERNAME = 'ingeniero_gualteros'
-#PASS = 'nicolasg1998'
+#PASS = '******'

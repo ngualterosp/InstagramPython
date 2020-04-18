@@ -119,6 +119,6 @@ def main(username,pwd,posts):
 
 if __name__ == '__main__':
     username='ingeniero_gualteros'
-    pwd='nicolasg1998'
+    pwd='*****'
     posts=['link publicacion']
     main(username,pwd,posts)
